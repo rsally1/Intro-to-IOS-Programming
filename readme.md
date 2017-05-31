@@ -1,12 +1,13 @@
 > Please read our slide creation guidelines in [the wiki](https://github.com/girldevelopit/gdi-slides-template/wiki). Then, delete this banner and add the specifics about your class below.
 
-# Add Your Course Title Here
+# Introduction to IOS Programming
 
-Slides and materials are hosted at [http://github.io/your_username_here/your_repository_name_here](http://github.io/your_username_here/your_repository_name_here).
+Slides and materials are hosted at [http://github.io/rsally1/intro-to-ios
+(http://github.io/your_username_here/your_repository_name_here).
 
 ## Course description
 
-Use this space for a short description of your course. We recommend using the description from your meetup event.
+This is an Introduction to IOS programming. You will learn and get a good understanding of Swift, the Apple eco-system, Xcode and tools used in creating IOS Apps. We shall do a demo where we actually build an App. This course is not a deep dive into the subject. Given the tight time-frame you will get an overview of the subject which you can use to get started in your IOS career.
 
 **Cost:** 
 
@@ -19,31 +20,26 @@ A limited number of scholarships are available for those with a financial hardsh
 
 ### Prerequisites:
 
-List any prerequisites for this class, including any previous classes or the equivalent self-study or real-world skills.
+Some understanding of Programming. No other pre-requesites required. And we will start very basic, so even if you dont know programming its OK.
 
-You should have:
+You should be familiar with:
 
-(a) taken Intro or Intermediate HTML/CSS through Girl Develop It, or
-
-(b) built and managed websites on your own,
-
-**And also:**
-
-(a) taken intro to JavaScript through Girl Develop It, or
-
-(b) be familiar with syntax, arrays, conditionals, for and while loops, event handling, jQuery, AJAX requests, and handling JSON responses.
-
+(a) taken intro to JavaScript through Girl Develop It
 
 ### Tech requirements:
 
- - Your laptop (Mac, PC, or Linux are all okay).
+ - Your laptop. Mac is requirement for this course
  - A modern web browser - either Chrome or Firefox with Firebug installed.
  - A text editor. We recommend Sublime Text 2 (free; available for Mac, PC, and Linux).
 
 
 ### Topics covered:
 
- - The topics you plan to cover
- - Written in list form
- - Here's another one
+ - Introduction to Programming and Swift 
+ - Data structures in Swift
+ - The MVC Paradigm
+ - Intro to XCODE
+ - Creating Apps with the StoryBoard
+ - Auto-Layout
+ - Demo and writing a full app.
 
