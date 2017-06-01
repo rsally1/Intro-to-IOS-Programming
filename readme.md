@@ -20,7 +20,7 @@ A limited number of scholarships are available for those with a financial hardsh
 
 ### Prerequisites:
 
-Some understanding of Programming. No other pre-requesites required. And we will start very basic, so even if you dont know programming its OK.
+Some understanding of Programming. Should have some knowledge of variables, functions and basic programming.No other pre-requesites required. And we will start very basic, so even if you dont know programming its OK.
 
 You should be familiar with:
 
@@ -31,7 +31,7 @@ You should be familiar with:
  - Your laptop. Mac is requirement for this course
  - A modern web browser - either Chrome or Firefox with Firebug installed.
  - A text editor. We recommend Sublime Text 2 (free; available for Mac, PC, and Linux).
-
+ - Download and Install Xcode on your Mac before you come to class. You can download this from the App Store.
 
 ### Topics covered:
 
