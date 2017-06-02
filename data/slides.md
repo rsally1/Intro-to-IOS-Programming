@@ -396,6 +396,142 @@ The Controller is the brains. It decides the logic. If the data recieved is "+" 
 
 - Links to the code [HERE] After we are done.
 	
-<br>
-#### The End of Slides
+
+
+
+### Day 2: Story Boards
+
+- The StoryBoard is the main UI of the IOS App
+
+- This is where you create your scenes, buttons and all user interactions
+
+- Behind the scenes these are nothing but Classes which we interact with
+
+- Now lets get familiar with XCode. The Design assistant, StoryBoard and How to Build the app.
+
+
+
+### XCode
+
+- Create a Single View Application. Open up Xcode and select New Project.
+
+- Save it in a place you will remember or you usually put your code in.
+
+- Choose Swift. Leave everthing else blank
+
+- Enter your (fake) Company name etc into Xcode to create a new Project. 
 	
+
+
+### Building our Todo List App
+
+- Lets remove the existing View Controller File
+
+- Create a new file - of class Tableview Controller
+
+- Remove the existing View controller file in Story board
+
+- Add a new Tableview Controller scene to our story board
+
+- Hook up the file to the new TblView Controller scene.
+
+
+
+### Create our Models
+
+- Remember data should live in a model. The design does not care about where we store this.
+
+- We will use an Array to store out todo-list. So yeah, its a simple model. An array.
+
+- Later on we can create more complicated models - but for our purpose this is fine.
+
+- We will store out todo items in an array. reminder of array:
+
+        items = ['Go to the gym', 'Visit Grandma', 'Do laundry', 'Dont forget to chill!']
+
+
+### Hook up the Model to the UI
+
+- So once we have our data the rest is easy peasy!
+
+- We just need to hook up our model ie data to the UI right. 
+
+- The TableViewController is a Class in IOS Core. Which means we have certain functions given
+to us to do this.
+
+- The rows in a Tableview are actually an array. The first row starts at 0... and goes on.
+
+- So if we store our data in an array, our first item, goes in the first row
+
+
+
+### IndexPath and Rows
+
+- Each indexpath is a row
+
+- So to populate data we get the indexpath and row and use that to pull out our data from the model
+
+- Lets do that on the Tableview Controller
+
+- The method we will use is :
+
+        func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
+
+- Like magic - our data is automatically populated in our Tableview
+
+
+
+### Add, and Delete operations
+
+- Of course to be a useful app we need to add certain functionality
+
+- We will see how we can Add rows and Delete rows. Edit is more complicated. We can do that another time.
+
+
+
+### What is a Segue
+
+- Segues are how you travel between one scene to another scene and send and recieve data back
+
+- To add a row we need to create a View Controller that can accept data. A Text Box. 
+
+- When we hit "SAVE" it should come back to our main parent but with our newly added todo item.
+
+- Again these are functions provided to us by IOS. We need to use them correctly and most of the work is done already.
+
+- We will create a new View Controller to Add data. Lets do it!!
+
+
+### Adding Data
+
+
+- Create a new Cocoa Touch File, Choose View Controller and name it appropriately.
+
+- In your storyboard lets create a new View Controller.
+
+- Lets Hook them up together.
+
+- OK - We have our data entry detail scene.
+
+
+### Save data and Add to the todo list
+
+- We will work on Adding the data to the model.
+
+- Displaying the newly added data onto the screen.
+
+
+
+### Next: Delete data from the todo.
+
+- Reverse of add. Remove data from the model
+
+- Display new data structure ( without above ) on the screen.
+
+
+
+### Lets run and put this on our phone
+
+Run and install on Phone.
+
+Congrats!!! You have an Iphone App. 
