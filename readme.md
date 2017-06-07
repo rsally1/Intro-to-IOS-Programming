@@ -43,3 +43,12 @@ You should be familiar with:
  - Auto-Layout
  - Demo and writing a full app.
 
+### To Run:
+
+install npm
+npm install -g grunt-cli
+run grunt from the folder that has your index.html
+
+OR
+
+PDFS - can be viewed in the PDFS folder.
